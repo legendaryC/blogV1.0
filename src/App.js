@@ -176,7 +176,7 @@ const client = new ApolloClient({
 
 const client = new ApolloClient({
   link: createHttpLink({
-        uri: 'https://jian.technology/graphql/', 
+        uri: 'https://jianc.me/graphql/', 
         headers: {'Content-Type': 'application/graphql'},
         fetchOptions:{method:"GET"},
         }),
